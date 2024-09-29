@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDSAFE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input">
+        <h2>กรอกข้อมูล</h2>
+        <form id="data-form">
+            <input type="text" id="id" name="id" placeholder="ID" readonly>
+            <textarea id="username" name="username" placeholder="USERNAME" required rows="2"></textarea>
+            <input type="text" id="information" name="information" placeholder="INFORMATION" required>
+            <input type="text" id="authenticator" name="authenticator" placeholder="AUTHENTICATOR" style="text-transform: uppercase;">
+            <textarea id="gmail" name="gmail" placeholder="GMAIL" rows="2"></textarea>
+            <input type="number" id="cost" name="cost" placeholder="COST" required>
+            <input type="number" id="price" name="price" placeholder="PRICE" required>
+            <button type="submit">ADD</button>
+        </form>
+    </div>
+    
+    <div id="result"></div>
+    <div id="data"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
